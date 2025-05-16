@@ -1,6 +1,7 @@
 {
     "modules": [
-        "Yireo_LokiAdminComponents"
+        "Yireo_LokiAdminComponents",
+        "Magento_Backend"
     ],
     "components": [
         "loki_admin_example_array_grid.grid"
