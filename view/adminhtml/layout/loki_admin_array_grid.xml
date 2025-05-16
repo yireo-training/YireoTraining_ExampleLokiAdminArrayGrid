@@ -8,9 +8,7 @@
                 name="loki_admin_example_array_grid.grid"
                 template="Yireo_LokiAdminComponents::grid.phtml">
                 <arguments>
-                    <argument name="namespace" xsi:type="string">example_array_grid</argument>
                     <argument name="provider" xsi:type="string">YireoTraining\ExampleLokiAdminArrayGrid\Provider\ArrayProvider</argument>
-                    <argument name="provider_handler" xsi:type="string">array</argument>
                 </arguments>
             </block>
         </referenceContainer>
