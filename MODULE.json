@@ -1,0 +1,10 @@
+{
+    "modules": [
+        "Yireo_LokiAdminComponents"
+    ],
+    "components": [
+        "loki_admin_example_array_grid.grid"
+    ],
+    "config": [],
+    "tests": []
+}
