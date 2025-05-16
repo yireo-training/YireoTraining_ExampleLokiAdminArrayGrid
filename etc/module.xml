@@ -4,6 +4,7 @@
     <module name="YireoTraining_ExampleLokiAdminArrayGrid">
         <sequence>
             <module name="Yireo_LokiAdminComponents"/>
+            <module name="Magento_Backend"/>
         </sequence>
     </module>
 </config>
