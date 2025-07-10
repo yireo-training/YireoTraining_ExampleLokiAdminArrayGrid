@@ -1,6 +1,6 @@
 {
     "modules": [
-        "Yireo_LokiAdminComponents",
+        "Loki_AdminComponents",
         "Magento_Backend"
     ],
     "components": [

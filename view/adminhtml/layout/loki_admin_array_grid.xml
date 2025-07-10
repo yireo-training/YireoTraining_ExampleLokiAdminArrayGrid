@@ -6,7 +6,7 @@
         <referenceContainer name="content">
             <block
                 name="loki_admin_example_array_grid.grid"
-                template="Yireo_LokiAdminComponents::grid.phtml">
+                template="Loki_AdminComponents::grid.phtml">
                 <arguments>
                     <argument name="provider" xsi:type="string">YireoTraining\ExampleLokiAdminArrayGrid\Provider\ArrayProvider</argument>
                     <argument name="cell_templates" xsi:type="array">

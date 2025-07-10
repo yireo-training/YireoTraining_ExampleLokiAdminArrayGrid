@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace YireoTraining\ExampleLokiAdminArrayGrid\Provider;
 
 use GuzzleHttp\Client;
-use Yireo\LokiAdminComponents\Provider\ArrayProviderInterface;
+use Loki\AdminComponents\Provider\ArrayProviderInterface;
 
 class ArrayProvider implements ArrayProviderInterface
 {
