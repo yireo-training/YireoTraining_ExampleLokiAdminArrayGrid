@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 24 July 2025
+### Fixed
+- Update deps with Loki packages
+- Use `Loki_AdminComponents` namespace
+- Add files via upload
+- Allow for cell templates to be defined via XML layout
+- Update instructions with `@dev`
+- Remove unneeded layout arguments
+
 ## [0.0.1] - 16 May 2025
 ### Added
 - Initial release
