@@ -1,4 +1,10 @@
 <?php
 declare(strict_types=1);
+
+use Magento\Framework\View\Element\Template;
+use Magento\Framework\Escaper;
+
+/** @var Template $block */
+/** @var Escaper $escaper */
 ?>
 <code><?= $escaper->escapeHtml($block->getValue()) ?></code>
