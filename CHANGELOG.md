@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3] - 21 August 2025
+### Fixed
+- Declare used PHP namespaces
+- Add declare strict types
+- Add missing strict_types declaration
+- Add escaping of template code
+- Formatting
+
 ## [0.0.2] - 24 July 2025
 ### Fixed
 - Update deps with Loki packages
