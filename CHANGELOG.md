@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.5] - 17 September 2025
+### Fixed
+- Refactor into new structure
+- Refactor string-type columns into Column-class
+- Change flag allow_actions into hide_actions
+
 ## [0.0.4] - 02 September 2025
 ### Fixed
 - Add CI files
