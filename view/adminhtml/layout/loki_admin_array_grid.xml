@@ -10,8 +10,10 @@
                 <arguments>
                     <argument name="provider" xsi:type="string">YireoTraining\ExampleLokiAdminArrayGrid\Provider\ArrayProvider</argument>
                     <argument name="hide_actions" xsi:type="boolean">true</argument>
-                    <argument name="cell_templates" xsi:type="array">
-                        <item name="package_name" xsi:type="string">YireoTraining_ExampleLokiAdminArrayGrid::grid/cell/code.phtml</item>
+                    <argument name="columns" xsi:type="array">
+                        <item name="package_name" xsi:type="array">
+                            <item name="cell_template" xsi:type="string">YireoTraining_ExampleLokiAdminArrayGrid::grid/cell/code.phtml</item>
+                        </item>
                     </argument>
                 </arguments>
             </block>
