@@ -4,21 +4,27 @@ declare(strict_types=1);
 namespace YireoTraining\ExampleLokiAdminArrayGrid\Provider;
 
 use GuzzleHttp\Client;
+use Loki\AdminComponents\Grid\Column\Column;
+use Loki\AdminComponents\Grid\Column\ColumnFactory;
 use Loki\AdminComponents\Provider\ArrayProviderInterface;
 
 class ArrayProvider implements ArrayProviderInterface
 {
     public function __construct(
-        private Client $client
+        private Client $client,
+        private ColumnFactory $columnFactory
     ) {
     }
 
+    /**
+     * @return Column[]
+     */
     public function getColumns(): array
     {
         return [
-            'package_name' => 'Composer package',
-            'version' => 'Version',
-            'release_date' => 'Release date'
+            $this->columnFactory->create(['code' => 'package_name', 'label' => 'Composer package']),
+            $this->columnFactory->create(['code' => 'version',  'label' =>'Version']),
+            $this->columnFactory->create(['code' => 'release_date',  'label' =>'Release date']),
         ];
     }
 
