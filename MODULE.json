@@ -20,5 +20,6 @@
         "loki_admin_example_array_grid.grid"
     ],
     "config": [],
-    "tests": []
+    "tests": [],
+    "phpcs_severity": "8"
 }
