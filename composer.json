@@ -21,5 +21,8 @@
             "YireoTraining\\ExampleLokiAdminArrayGrid\\": ""
         }
     },
-    "keywords": []
+    "keywords": [
+        "loki-components",
+        "loki-example"
+    ]
 }
