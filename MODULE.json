@@ -5,16 +5,30 @@
     ],
     "modules": [
         "Loki_AdminComponents",
+        "Loki_Base",
         "Loki_Components",
         "Loki_CssUtils",
+        "Magento_AdminNotification",
         "Magento_Backend",
         "Magento_Catalog",
+        "Magento_Cms",
+        "Magento_Config",
+        "Magento_Csp",
         "Magento_Customer",
         "Magento_Directory",
         "Magento_Eav",
+        "Magento_Indexer",
+        "Magento_MediaGalleryUiApi",
+        "Magento_Payment",
+        "Magento_Quote",
+        "Magento_Rule",
+        "Magento_Sales",
+        "Magento_SalesSequence",
         "Magento_Store",
         "Magento_Theme",
-        "Magento_Ui"
+        "Magento_Ui",
+        "Magento_Variable",
+        "Yireo_CspUtilities"
     ],
     "components": [
         "loki_admin_example_array_grid.grid"
@@ -24,5 +38,13 @@
     "phpcs_severity": "8",
     "phpstan_level": "4",
     "module_name": "YireoTraining_ExampleLokiAdminArrayGrid",
-    "composer_name": "yireo-training/magento2-example-loki-admin-array-grid"
+    "composer_name": "yireo-training/magento2-example-loki-admin-array-grid",
+    "php_versions": [
+        "8.1",
+        "8.2",
+        "8.3",
+        "8.4"
+    ],
+    "skip_magento_versions": [],
+    "skip_css_utils": false
 }
