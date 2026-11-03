@@ -35,7 +35,7 @@
     ],
     "config": [],
     "tests": [],
-    "phpcs_severity": "8",
+    "phpcs_severity": "7",
     "phpstan_level": "4",
     "module_name": "YireoTraining_ExampleLokiAdminArrayGrid",
     "composer_name": "yireo-training/magento2-example-loki-admin-array-grid",
