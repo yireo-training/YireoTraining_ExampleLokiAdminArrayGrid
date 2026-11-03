@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.7] - 03 November 2026
+### Fixed
+- Beautify README
+- Remove PHP 8.1 support, add PHP 8.5 support
+
 ## [0.0.6] - 27 September 2025
 ### Fixed
 - Loosen constraints with Loki Admin Components
@@ -14,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Refactor into new structure
 - Refactor string-type columns into Column-class
-- Change flag allow_actions into hide_actions
+- Change flag `allow_actions` into hide_actions
 
 ## [0.0.4] - 02 September 2025
 ### Fixed
@@ -23,8 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.3] - 21 August 2025
 ### Fixed
 - Declare used PHP namespaces
-- Add declare strict types
-- Add missing strict_types declaration
+- Add missing `strict_types` declaration
 - Add escaping of template code
 - Formatting
 
