@@ -9,6 +9,9 @@
                 template="Loki_AdminComponents::grid.phtml">
                 <arguments>
                     <argument name="provider" xsi:type="string">YireoTraining\ExampleLokiAdminArrayGrid\Provider\ArrayProvider</argument>
+                    <argument name="acl_resource" xsi:type="string">YireoTraining_ExampleLokiAdminArrayGrid::grid</argument>
+                    <argument name="save_acl_resource" xsi:type="string">YireoTraining_ExampleLokiAdminArrayGrid::grid</argument>
+                    <argument name="delete_acl_resource" xsi:type="string">YireoTraining_ExampleLokiAdminArrayGrid::grid</argument>
                     <argument name="hide_actions" xsi:type="boolean">true</argument>
                     <argument name="columns" xsi:type="array">
                         <item name="package_name" xsi:type="array">
