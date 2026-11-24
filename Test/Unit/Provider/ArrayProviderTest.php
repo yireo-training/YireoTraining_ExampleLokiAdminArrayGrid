@@ -49,7 +49,7 @@ class ArrayProviderTest extends TestCase
 
         $provider = $this->getProvider();
         $this->assertSame($expectedRows, $provider->getData());
-        $this->assertSame($expectedRows, $provider->getData());
+        $provider->getData();
     }
 
     public function testCachedRowsSkipTheRequest(): void

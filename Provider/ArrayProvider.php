@@ -84,7 +84,7 @@ class ArrayProvider implements ArrayProviderInterface
     private function getCachedRows(): ?array
     {
         $cachedRows = $this->cache->load(self::CACHE_KEY);
-        if (!is_string($cachedRows) || $cachedRows === '') {
+        if (!$cachedRows) {
             return null;
         }
 
