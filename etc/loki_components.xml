@@ -3,6 +3,6 @@
     <component
         name="loki_admin_example_array_grid.grid"
         viewModel="Loki\AdminComponents\Component\Grid\GridViewModel"
-        repository="Loki\AdminComponents\Component\Grid\GridRepository">
+        repository="YireoTraining\ExampleLokiAdminArrayGrid\Component\Grid\ReadOnlyGridRepository">
     </component>
 </components>
