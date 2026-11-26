@@ -34,7 +34,11 @@
         "loki_admin_example_array_grid.grid"
     ],
     "config": [],
-    "tests": [],
+    "tests": {
+        "unit": 9,
+        "integration": 0,
+        "functional": 0
+    },
     "phpcs_severity": "6",
     "phpstan_level": "4",
     "module_name": "YireoTraining_ExampleLokiAdminArrayGrid",
